@@ -1,0 +1,64 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #d9d6d6;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-image:url(https://www.emilystudies.co.uk/wp-content/uploads/2019/04/ghjkl-1024x576.jpg); 
+}
+  .container {
+    background-color: #ffffff;
+    position:absolute;
+    margin-right:-50%;
+    margin-bottom: -5%;
+    border-radius: 8px;
+    box-shadow: 10px 10px 10px 10px rgba(255, 238, 0, 0.1);
+    width: 500px;
+    padding: 30px;
+    text-align: center;
+  }
+  
+  #tasks-container {
+    margin-bottom: 20px;
+  }
+  
+  .task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  button {
+    background-color: rgb(6, 191, 242);
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  button:hover {
+    background-color: #00a6ff;
+  }
+  
+  #new-task{
+    height:25px;
+    width:400px;
+    color:black;
+    font-weight: 100s;
+  }
